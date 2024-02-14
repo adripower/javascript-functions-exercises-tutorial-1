@@ -1,5 +1,5 @@
 // Your code goes here
-const rapid = (texto) => {
+/*const rapid = (texto) => {
     let consonantes = "";
     console.log(texto);
     for (let index = 0; index < texto.length; index++) {
@@ -10,6 +10,18 @@ const rapid = (texto) => {
         }
 
     }
+}
+*/
+
+
+const rapid = (string) => {
+    let consonantes = "";
+    const vocales = "aeiou";
+    for(let letra of string.toLowerCase()){
+        if(vocales.includes(letra) === false)
+            consonantes += letra.toUpperCase();
+    }
+    return consonantes;
 }
 
 // Work above this line; do not change code below
