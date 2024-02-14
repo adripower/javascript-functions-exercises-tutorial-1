@@ -1,4 +1,8 @@
 // Your code goes here:
+function renderPerson (nombre,cumple,ojos,edad,sexo) {
+    return "Me llamos " + nombre + " cumplo el "+ cumple + " tengo los ojos "+ ojos+ " tengo "+ edad +" y soy un " + sexo;
+    
+}
 
 
 
